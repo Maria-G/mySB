@@ -1,0 +1,44 @@
+/* mySB styles for mdb items */
+
+
+/** SB Homepage Image Carousel **/
+	
+/* Necessary for full page carousel*/
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+/* Carousel*/
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: "/mySB/img/south_bend_homepage_image1.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: "/mySB/img/south_bend_homepage_image2.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: "/mySB/img/south_bend_homepage_image3.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** SB Homepage image Carousel *//
